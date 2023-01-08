@@ -6,6 +6,7 @@ import ControlledCarousel from './components/Carousel/Carousel';
 import  'bootstrap/dist/css/bootstrap.min.css' ;
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Aportes from './components/Aportes/Aportes';
+import Testimonios from './components/Testimonios/Testimonios';
 //import Rescatados from './components/Rescatados/Rescatados';
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
           <Route path='/QuienesSomos' element={<QuienesSomos/>} />
         </Routes>
         <Aportes />
-        {/* <Rescatados /> */}
+        <hr/>
+        <Testimonios />
         <Footer />
       </BrowserRouter>
     </div>

@@ -1,6 +1,7 @@
 import { useState , useEffect } from "react";
 import {data} from "./data";
 
+
 const Rescatados = () => {
     const [jsonData, setJsonData] = useState([]);
 

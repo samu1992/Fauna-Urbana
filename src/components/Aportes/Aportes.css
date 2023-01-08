@@ -2,6 +2,58 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     padding: 25px;
     font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-weight: 600;
+    font-size: 35px;
+}
+h5{
+    font-weight: bolder;
+}
+.container_aportes--tarjetas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 25px;
+    gap: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.tarjeta{
+    width: 520px;
+    height: 220px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    cursor: pointer;
+}
+.tarjeta h2{
+    margin-top: 100px;
+    font-weight: 400;
+}
+
+.tarjeta--0{
+    background-image: url(tarjeta.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.tarjeta--1{
+    background-image: url(tarjeta1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.tarjeta--2{
+    background-image: url(tarjeta2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.tarjeta--3{
+    background-image: url(tarjeta3.jpg);
+    background-position: center;
+    background-size: cover;
 }
