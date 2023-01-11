@@ -1,0 +1,30 @@
+.container_lista{
+    font-family: 'Montserrat', sans-serif;
+    width: 84%;
+    border: 1px solid #2a814c;
+    border-radius: 5px;
+    margin: 10px;
+}
+.lista_desordenada{
+    list-style: none;
+    text-align: justify;
+}
+.container_lista--title{
+    background-color: #2a814c;
+    padding: 10px;
+    color: #ffffff;
+}
+.container_lista--title::before{
+    content: "\f05a";
+    font-family: 'Fontawesome';
+}
+.container_lista li{
+    margin: 10px;
+    font-weight: 500;
+}
+.container_lista li::before{
+    content: "\f00c";
+    font-family: 'Fontawesome';
+    color: #2a814c;
+    margin-right: 10px;
+}

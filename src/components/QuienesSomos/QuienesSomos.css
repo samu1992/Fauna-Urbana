@@ -6,7 +6,7 @@
     padding-top: 80px;
     min-width: 100%;
     min-height: 100vh auto;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Monserrat', sans-serif;
     background-color: #ffffff;
 }
 h1{
@@ -19,7 +19,8 @@ h1{
 
 #p{
     font-size: 20px;
-    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-family: 'Monserrat', sans-serif;
 }
 .container_nosotros--img{
     background-image: url('img.jpg');

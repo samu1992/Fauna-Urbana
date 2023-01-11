@@ -1,83 +1,92 @@
-
+import pino from './images/pino.jpg';
+import sombra from './images/sombra.jpg';
+import pablo from './images/pablo.jpg';
+import areta from './images/areta.jpg';
+import menta from './images/menta.jpg';
+import vito from './images/vito.jpg';
+import loky from './images/loky.jpg';
+import india from './images/india.jpg';
+import megan from './images/megan.jpg';
+import latte from './images/latte.jpg';
     export const data =[
         {
-            "nombre": "pino",
+            "nombre": "Pino",
             "id": 1,
-            "edad": 1,
-            "reascatado": "merlo",
-            "foto": "pino",
-            "condicion": "estable"
+            "edad": "1 año",
+            "rescatado": "Merlo",
+            "foto": pino,
+            "condicion": "Estable"
         },
         {
-            "nombre": "sombra",
+            "nombre": "Sombra",
             "id": 2,
-            "edad": 3,
-            "reascatado": "moron",
-            "foto": "sombra",
-            "condicion": "delicada"
+            "edad": "2 años",
+            "rescatado": "Moron",
+            "foto": sombra,
+            "condicion": "Delicada"
         },
         {
             "nombre": "pablo",
             "id": 3,
-            "edad": 7,
-            "reascatado": "virrey del pino",
-            "foto": "pablo",
-            "condicion": "en recuperacion"
+            "edad": "6 años",
+            "rescatado": "Zarate",
+            "foto": pablo,
+            "condicion": "Recuperacion"
         },
         {
-            "nombre": "areta",
+            "nombre": "Areta",
             "id": 4,
-            "edad": 6,
-            "reascatado": "lomas de zamora",
-            "foto": "areta",
-            "condicion": "sano"
+            "edad": "3 años",
+            "rescatado": "Lanus",
+            "foto": areta,
+            "condicion": "Sano"
         },
         {
-            "nombre": "menta",
+            "nombre": "Menta",
             "id": 5,
-            "edad": 7,
-            "reascatado": "chenaut",
-            "foto": "menta",
-            "condicion": "sana"
+            "edad": "4 años",
+            "rescatado": "Chenaut",
+            "foto": menta,
+            "condicion": "Sana"
         },
         {
-            "nombre": "vito",
+            "nombre": "Vito",
             "id": 6,
-            "edad": 9,
-            "reascatado": "martinez",
-            "foto": "vito",
-            "condicion": "en recuperacion"
+            "edad": "8 meses",
+            "rescatado": "Martinez",
+            "foto": vito,
+            "condicion": "Recuperacion"
         },
         {
-            "nombre": "loky",
+            "nombre": "Loky",
             "id": 7,
-            "edad": 4,
-            "reascatado": "escobar",
-            "foto": "loky",
-            "condicion": "estable"
+            "edad": "5 años",
+            "rescatado": "Escobar",
+            "foto": loky,
+            "condicion": "Estable"
         },
         {
-            "nombre": "india",
+            "nombre": "India",
             "id": 8,
-            "edad": 6,
-            "reascatado": "lanus",
-            "foto": "india",
-            "condicion": "delicada"
+            "edad": "2 años",
+            "rescatado": "Lanus",
+            "foto": india,
+            "condicion": "Delicada"
         },
         {
-            "nombre": "megan",
+            "nombre": "Megan",
             "id": 9,
-            "edad": 2,
-            "reascatado": "san martin",
-            "foto": "megan",
-            "condicion": "sana"
+            "edad": "7 años",
+            "rescatado": "San Martin",
+            "foto": megan,
+            "condicion": "Sana"
         },
         {
-            "nombre": "latte",
+            "nombre": "Latte",
             "id": 10,
-            "edad": 2,
-            "reascatado": "villa luro",
-            "foto": "latte",
-            "condicion": "delicada"
+            "edad": "6 años",
+            "rescatado": "Villa Luro",
+            "foto": latte,
+            "condicion": "Delicada"
         }
     ]

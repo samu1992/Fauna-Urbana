@@ -33,7 +33,7 @@ function Testimonios() {
 
     return (
         <div className='container'>
-            <h2>Adoptantes Felices  <a href="."><i class="fa-solid fa-heart"></i></a></h2>
+            <h2><span>Adoptantes Felices </span> <a href="."><i class="fa-solid fa-heart"></i></a></h2>
             <div className='container_testimonios'>
                 <CSSTransition
                     in={true}

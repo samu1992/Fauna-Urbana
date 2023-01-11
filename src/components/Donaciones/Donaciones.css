@@ -1,0 +1,60 @@
+.container_donaciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    width: 100%;
+    font-family: 'Monserrat', sans-serif;
+}
+.container_donaciones--contenido{
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    width: 90%;
+    padding: 10px 10px 10px 0px;
+    border-top: solid 1px rgba(0, 0, 0, 0.1);
+    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+}
+.container_donaciones--contenido h3{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.container_donaciones_contenido--cuentas{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: top;
+    flex-wrap: wrap;
+    padding: 15px;
+    width: 100%;
+}
+.cuenta_bancaria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    line-height: 30px;
+}
+.cuenta_bancaria p{
+    text-align: center;
+}
+.debito_automatico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 60px;
+}
+.debito_automatico button{
+    padding: 15px;
+    margin: 25px;
+    border: none;
+    background-color: #2a814c;
+    color: #ffffff;
+    border-radius: 5px;
+}

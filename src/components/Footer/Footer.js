@@ -4,7 +4,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className="container_footer__legal">
+    <div className="container_footer">
       <div>
         <h3 id='title'>LEGAL</h3>
         <ul>
@@ -13,7 +13,7 @@ const Footer = () => {
           <li>Politica de Cookies</li>
           <li>Politica de Privacidad</li>
           <li>Seleccionar Pais</li>
-          <li id='container_footer__legal__6'>Reclamos</li>
+          <li id='container_footer__6'>Reclamos</li>
         </ul>
       </div>
       <div>
@@ -25,7 +25,7 @@ const Footer = () => {
           los derechos de los<br />
           animales.</p>
       </div>
-      <div className='container_footer__legal--form'>
+      <div className='container_footer--form'>
         <h3 id='title'>MAILING PA</h3>
         <Form>
           <Form.Group className="mb-3" controlId="formGroupEmail">
@@ -46,12 +46,12 @@ const Footer = () => {
           <li>Quienes Somos</li>
         </ul>
       </div>
-      <div className='container_footer__legal__networks'>
+      <div className='container_footer--networks'>
         <h3 id='title'>SEGUINOS EN:</h3>
-        <div className='container_footer__legal__networks--links'>
-          <a href="."><i className=" fab fa-instagram"></i></a>
-          <a href="."><i className=" fab fa-facebook"></i></a>
-          <a href="."><i className=" fab fa-twitter"></i></a>
+        <div className='container_footer__networks--links'>
+          <a id='networks' href="."><i className="fab fa-instagram"></i></a>
+          <a id='networks' href="."><i className="fab fa-facebook"></i></a>
+          <a id='networks' href="."><i className="fab fa-twitter"></i></a>
         </div>
       </div>
     </div>

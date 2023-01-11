@@ -6,14 +6,14 @@
     padding: 25px;
     font-family: 'Montserrat', sans-serif;
 }
-h2{
+.container_aportes h2{
     font-weight: 600;
     font-size: 35px;
 }
-h5{
+.container_aportes h6{
     font-weight: bolder;
 }
-.container_aportes--tarjetas{
+.container_aportes_tarjetas{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +23,7 @@ h5{
     gap: 30px;
     font-family: 'Montserrat', sans-serif;
 }
-.tarjeta{
+.container_aportes_tarjetas--tarjeta{
     width: 520px;
     height: 220px;
     color: #ffffff;
@@ -32,7 +32,7 @@ h5{
     padding: 15px;
     cursor: pointer;
 }
-.tarjeta h2{
+.container_aportes_tarjetas--tarjeta h2{
     margin-top: 100px;
     font-weight: 400;
 }
