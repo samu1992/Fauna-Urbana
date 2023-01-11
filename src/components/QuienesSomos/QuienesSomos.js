@@ -8,13 +8,13 @@ const QuienesSomos = () => {
                 <hr />
                 <h2 id='subtitulos'>Nuestro equipo</h2>
                 <p id='p'>
-                    PA está compuesto por voluntarios que comparten el respeto por la
+                    FAUNA URBANA está compuesto por voluntarios que comparten el respeto por la
                     vida de los animales y los consideran sus iguales siendo que estos tienen
                     capacidad para sentir placer, alegría, dolor y sufrimiento
                 </p>
                 <div className='container_nosotros--img'></div>
                 <h2 id='subtitulos'>Nuestra misión</h2>
-                <p id='p'>Proyecto adoptame (PA) es una organización sin fines de lucro liderada por un grupo
+                <p id='p'>FAUNA URBANA (FU) es una organización sin fines de lucro liderada por un grupo
                     de voluntarios que buscan superar la situación de sobrepoblación, abandono, crueldad e indiferencia
                     que viven millones de animales en nuestro país. (Buenos Aires/ Argentina). Propiciamos una actitud de
                     respeto hacia todas las especies, entendiendo que no son “cosas” para ser utilizadas por el ser humano.

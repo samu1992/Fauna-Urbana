@@ -9,6 +9,7 @@ import Rescatados from './components/Rescatados/Rescatados';
 import Requisitos from './components/Requisitos/Requisitos';
 import Castracion from './components/Castracion/Castracion';
 import Donaciones from './components/Donaciones/Donaciones';
+import Contacto from './components/Contacto/Contacto';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/Requisitos' element={<Requisitos/>} />
           <Route path='/Castracion' element={<Castracion />} />
           <Route path='/Donaciones' element={<Donaciones />} />
+          <Route path='/Contacto' element={<Contacto />} />
         </Routes>
         <Footer />
       </BrowserRouter>

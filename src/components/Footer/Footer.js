@@ -17,8 +17,8 @@ const Footer = () => {
         </ul>
       </div>
       <div>
-        <h3 id='title'>PA</h3>
-        <p>Proyecto Adoptame (PA)<br /> es una asociación civil<br />
+        <h3 id='title'>FU</h3>
+        <p>FAUNA URBANA (FU)<br /> es una asociación civil<br />
           sin fines de lucro<br />
           abocada a difundir,<br />
           proteger y promover<br />
@@ -26,7 +26,7 @@ const Footer = () => {
           animales.</p>
       </div>
       <div className='container_footer--form'>
-        <h3 id='title'>MAILING PA</h3>
+        <h3 id='title'>MAILING</h3>
         <Form>
           <Form.Group className="mb-3" controlId="formGroupEmail">
             <Form.Label>Recibí las novedades en tu mail!</Form.Label>

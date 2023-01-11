@@ -5,13 +5,13 @@ const Donaciones = () => {
     return (
         <div className='container_donaciones'>
             <div className='container_donaciones--contenido'>
-                <h3><span>Tu aporte nos permite continuar llevando a cabo actividades sanitarias, educativas y de asistencialismo.</span></h3>
+                <h3>Tu aporte nos permite continuar llevando a cabo actividades sanitarias, educativas y de asistencialismo.</h3>
                 <p id='p'>Los aportes económicos son importantes para pagar tratamientos, estudios médicos y honorarios veterinarios,
                     comprar insumos y alimento, financiar campañas de castración en zonas carenciadas, imprimir material de
                     difusión entre otros.</p>
                 <div className='container_donaciones_contenido--cuentas'>
                     <div className='cuenta_bancaria'>
-                        <h4><span>Depósito o transferencia Bancaria</span></h4>
+                        <h4>Depósito o transferencia Bancaria</h4>
                         <p>(Doná el importe que quieras directamente en nuestra cuenta.)</p>
                         <p>Banco XXXXXX</p>
                         <p>Asociación Civil FAUNA<br />
@@ -22,7 +22,7 @@ const Donaciones = () => {
                             Alias: PROYECTO-FAUNA</p>
                     </div>
                     <div className='debito_automatico'>
-                        <h4><span>Por Débito Automático</span></h4>
+                        <h4>Por Débito Automático</h4>
                         <p>(Doná el importe que quieras directamente en nuestra cuenta.)</p>
                         <p>Banco XXXXXX</p>
                         <p>Asociación Civil FAUNA<br /></p>

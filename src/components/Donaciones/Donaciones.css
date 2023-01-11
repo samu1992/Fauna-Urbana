@@ -58,3 +58,7 @@
     color: #ffffff;
     border-radius: 5px;
 }
+.container_donaciones h3, h4{
+    font-size: 30px;
+    color: #f1cbc0;
+}

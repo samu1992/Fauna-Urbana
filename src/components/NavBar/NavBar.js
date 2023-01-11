@@ -9,7 +9,7 @@ const NavBar = () => {
             <Link to="/"><div className="container_nav--logo"></div></Link>
             <div className="container_nav--li">
                 <div className='container_nav--input'>
-                    <form><input type='search' placeholder='Busqueda' /></form>
+                    <form><input id='input' type='search' placeholder='Busqueda' /></form>
                     <div className='container_nav_input--icon'><Link to='/'><i className="fa-solid fa-magnifying-glass"></i></Link></div>
                 </div>
                 <li><Link  to='/QuienesSomos' className='container_nav--link'>Quienes Somos</Link></li>
@@ -18,7 +18,7 @@ const NavBar = () => {
                 <li><Link to='./Donaciones' className='container_nav--link'>Donaciones</Link></li>
                 <li><Link to='./Castracion' className='container_nav--link castracion'>Salva Vidas</Link></li>
                 <div className='menu_desplegable' id='castracion'><Link to='/Castracion' className='requisitos'>Castracion</Link></div>
-                <li><Link className='container_nav--link'>Contacto</Link></li>
+                <li><Link to='./Contacto' className='container_nav--link'>Contacto</Link></li>
 
             </div>
         </div>
