@@ -4,7 +4,6 @@
     justify-content: center;
     flex-direction: column;
     padding: 25px;
-    font-family: 'Montserrat', sans-serif;
 }
 .container_aportes h2{
     font-weight: 900;
@@ -21,7 +20,6 @@
     flex-direction: row;
     padding: 25px;
     gap: 30px;
-    font-family: 'Montserrat', sans-serif;
 }
 .container_aportes_tarjetas--tarjeta{
     width: 520px;
@@ -38,22 +36,22 @@
 }
 
 .tarjeta--0{
-    background-image: url(tarjeta.jpg);
+    background-image: url('./images/tarjeta.jpg');
     background-position: center;
     background-size: cover;
 }
 .tarjeta--1{
-    background-image: url(tarjeta1.jpg);
+    background-image: url('./images/tarjeta1.jpg');
     background-position: center;
     background-size: cover;
 }
 .tarjeta--2{
-    background-image: url(tarjeta2.jpg);
+    background-image: url('./images/tarjeta2.jpg');
     background-position: center;
     background-size: cover;
 }
 .tarjeta--3{
-    background-image: url(tarjeta3.jpg);
+    background-image: url('./images/tarjeta3.jpg');
     background-position: center;
     background-size: cover;
 }

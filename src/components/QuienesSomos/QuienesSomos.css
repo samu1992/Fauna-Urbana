@@ -6,7 +6,6 @@
     padding-top: 80px;
     min-width: 100%;
     min-height: 100vh auto;
-    font-family: 'Monserrat', sans-serif;
     background-color: #ffffff;
 }
 h1{
@@ -20,7 +19,6 @@ h1{
 #p{
     font-size: 20px;
     font-weight: 100;
-    font-family: 'Monserrat', sans-serif;
 }
 .container_nosotros--img{
     display: flex;

@@ -1,5 +1,4 @@
 .container_footer{
-    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     display: flex;
     align-items: top;
@@ -47,6 +46,7 @@ li:hover{
     align-items: center;
     gap: 28px;
 }
+
 i:hover{
     color: #4f1614;
 }
@@ -55,7 +55,6 @@ i:hover{
     color: #340e0d;
 }
 #title{
-    font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
 }
 

@@ -1,8 +1,8 @@
 import  'bootstrap/dist/css/bootstrap.min.css' ;
 import './Carousel.css';
-import foto3 from './foto3.jpg';
-import foto1 from './foto1.jpg';
-import foto2 from './foto2.jpg';
+import foto3 from './images/foto3.jpg';
+import foto1 from './images/foto1.jpg';
+import foto2 from './images/foto2.jpg';
 
 const ControlledCarousel = () => {
     return (

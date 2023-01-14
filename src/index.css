@@ -4,9 +4,5 @@ body, html {
   min-width: 100%;
   min-height: 100vh;
   background-color: #ffffff;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Montserrat', 'sans-serif';
 }

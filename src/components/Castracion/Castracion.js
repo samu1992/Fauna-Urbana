@@ -1,7 +1,7 @@
 import './Castracion.css'
 import ListaDesordenada from "../ListaDesordenada/ListaDesordenada";
-import Cachorros from './cachorros.jpg'
-import Pagos from './pagos.png'
+import Cachorros from './images/cachorros.jpg'
+import Pagos from './images/pagos.png'
 
 const Castracion = () => {
     return (

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import './Testimonios.css';
-import pedro from './pedro.jpg';
-import areta from './pino.jpg';
-import juan from './juan.jpg';
+import pedro from './images/pedro.jpg';
+import areta from './images/pino.jpg';
+import juan from './images/juan.jpg';
 
 
 function Testimonios() {

@@ -4,7 +4,6 @@
     justify-content: center;
     flex-direction: column;
     padding: 25px;
-    font-family: 'Montserrat', sans-serif;
 }
 .container_testimonios{
     display: flex;
@@ -12,7 +11,6 @@
     justify-content: center;
     flex-direction: column;
     padding: 25px;
-    font-family: 'Montserrat', sans-serif;
 }
 .container_testimonios img{
     object-fit: cover;
@@ -26,7 +24,6 @@
     justify-content: center;
     flex-direction: column;
     padding: 25px;
-    font-family: 'Montserrat', sans-serif;
 }
 .container_testimonios--contenido p{
     font-size: 20px;
