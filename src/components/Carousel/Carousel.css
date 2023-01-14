@@ -26,3 +26,18 @@ strong{
     font-size: 28px;
     line-height: 1.8em;
 }
+#carouselh1{
+    padding: 0px;
+}
+@media only screen and (max-width: 770px){
+    .container_carousel h1{
+        font-size: 40px;
+        margin: 0px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .container_carousel h1{
+        font-size: 25px;
+        margin: 0px;
+    }
+}

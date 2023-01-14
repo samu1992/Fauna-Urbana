@@ -51,3 +51,26 @@
 .container_rescatados--card button:hover{
     background-color: #5c9973;
 }
+
+@media only screen and (max-width: 727px){
+    .container_rescatados{
+        padding: 10px;
+    }
+    .img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 640px){
+    .container_rescatados{
+        padding: 5px;
+        padding-top: 20px;
+    }
+    .container_rescatados--card{
+        width: 100%;
+    }
+    .img{
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -7,6 +7,9 @@
     flex-wrap: wrap;
     font-family: 'Montserrat', sans-serif;
 }
+.container_castracion p{
+    text-align: justify;
+}
 .container_castracion--title{
     display: flex;
     min-width: 84% ;
@@ -39,4 +42,15 @@
 }
 .container_castracion button img{
     margin: 15px;
+}
+@media only screen and (max-width: 770px){
+    .container_castracion img{
+        width: 100%;
+    }
+    .container_castracion h1{
+        font-size: 40px;
+    }
+    .container_castracion p{
+        text-align: justify;
+    }
 }

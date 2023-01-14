@@ -1,8 +1,9 @@
 .container_nav{
     font-family: 'Montserrat', sans-serif;
-    font-size: larger;
+    font-size: 18px;
     font-weight: bold;
     display: flex;
+    z-index: 10;
     justify-content: space-between;
     align-items: center;
     min-width: 100% auto;
@@ -36,7 +37,7 @@
     color: #2a814c;
 }
 .container_nav--logo{
-    background-image: url(logo1.png);
+    background-image: url(ADOPCION.png);
     background-position: center;
     background-size: cover;
     width: 100px;
@@ -115,9 +116,77 @@ li:hover + .menu_desplegable{
     content: '\f078';
     font-family: 'Fontawesome';
 }
+.bars{
+    display: none;
+}
+.menu_responsive{
+    display: none;
+}
 
 
 #input[type="search"]::-webkit-search-decoration,
 #input[type="search"]::-webkit-search-cancel-button,
 #input[type="search"]::-webkit-search-results-button,
 #input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+@media only screen and (max-width: 1300px){
+    .container_nav--input{
+        display: none;
+    }
+}
+@media only screen and (max-width: 929px){
+    .container_nav--li{
+        display: none;
+    }
+    .bars{
+        display: block;
+        font-size: 40px;
+        color: #000000;
+    }
+    .menu_responsive:hover{
+        display: flex;
+        position: absolute;
+        right: 1px;
+        top: 110px;
+        width: 60%;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-direction: column;
+        z-index: 30;
+        gap: 25px;
+        padding: 25px;
+        padding-bottom: 300px;
+        background-color: rgba(241, 203, 192, 0.7);
+    }
+    .bars:hover + .menu_responsive{
+        display: flex;
+        position: absolute;
+        right: 1px;
+        top: 110px;
+        width: 60%;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-direction: column;
+        z-index: 30;
+        gap: 25px;
+        padding: 25px;
+        padding-bottom: 300px;
+        background-color: rgba(241, 203, 192, 0.7);
+    }
+    .menu_responsive a{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        font-weight: 900;
+        text-decoration: none;
+        color: #0e0d35;
+    }
+    .container_nav a{
+        text-decoration: none;
+    }
+
+}
+@media only screen and (max-width: 480px){
+    .menu_responsive a{
+        font-size: 15px;
+    }
+}

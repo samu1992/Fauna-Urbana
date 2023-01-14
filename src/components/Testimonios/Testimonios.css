@@ -33,3 +33,28 @@
     font-weight: 400;
     text-align: justify;
 }
+
+@media only screen and (max-width: 720px){
+    .container_testimonios--contenido p{
+        font-size: 18px;
+    }
+    .container_testimonios{
+        display: flex;
+        width: 100%;
+    }
+    .container_testimonios img{
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 520px){
+    .container_testimonios img{
+        width: 300px;
+    }
+    .container_testimonios{
+        display: flex;
+        width: 100%;
+    }
+    .container_testimonios--contenido p{
+        font-size: 15px;
+    }
+}

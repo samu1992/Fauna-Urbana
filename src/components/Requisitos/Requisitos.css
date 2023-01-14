@@ -93,3 +93,9 @@ span{
 .lista_requisitos{
     text-align: justify;
 }
+
+@media only screen and (max-width: 929px){
+    .container--titulo h1{
+        font-size: 35px;
+    }
+}

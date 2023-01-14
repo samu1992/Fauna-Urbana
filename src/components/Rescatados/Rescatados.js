@@ -1,7 +1,7 @@
 import { useState , useEffect } from "react";
 import Card from 'react-bootstrap/Card';
 import { Link } from "react-router-dom";
-import {data} from "./data";
+import {data} from "./data.js";
 import './Rescatados.css';
 
 

@@ -1,8 +1,8 @@
 .container_contacto{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: start;
+    align-items: initial;
+    justify-content: flex-start;
     flex-wrap: wrap;
     min-width: 100%;
     padding: 150px;
@@ -12,12 +12,14 @@
 .container_contacto--formulario{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: initial;
     justify-content: initial;
     flex-wrap: wrap;
     min-width: 80%;
 }
 .container_contacto--title{
+    display: flex;
+    flex-direction: column;
     margin-bottom: 20px;
 }
 .container_contacto--formulario input{
@@ -40,4 +42,25 @@
     background-color: #2a814c;
     color: #ffffff;
     border-radius: 5px;
+}
+
+@media only screen and (max-width: 770px){
+    .container_contacto{
+        padding: 50px;
+    }
+}
+@media only screen and (max-width: 680px){
+    .container_contacto{
+        padding: 10px;
+    }
+    .container_contacto--formulario textarea{
+        margin: 5px;
+    }
+    .container_contacto--formulario input{
+        width: 80%;
+    }
+    .container_contacto--formulario textarea{
+        margin: 10px;
+        width: 80%;
+    }
 }

@@ -7,7 +7,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 .container_aportes h2{
-    font-weight: 600;
+    font-weight: 900;
     font-size: 35px;
 }
 .container_aportes h6{
@@ -56,4 +56,32 @@
     background-image: url(tarjeta3.jpg);
     background-position: center;
     background-size: cover;
+}
+
+@media only screen and (max-width: 720px){
+    .container_aportes{
+        padding: 5px;
+    }
+    .container_aportes h2{
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width: 580px){
+    .container_aportes h2{
+        font-size: 18px;
+    }
+    .container_aportes h6{
+        font-size: 16px;
+    }
+    .container_aportes_tarjetas--tarjeta{
+        max-width: 400px;
+    }
+}
+@media only screen and (max-width: 420px){
+    .container_aportes h2{
+        font-size: 15px;
+    }
+    .container_aportes_tarjetas--tarjeta{
+        width: 250px;
+    }
 }
