@@ -22,7 +22,7 @@ React-bootstrap.
 React-router-dom.
 font Awesome
 
-![gif](https://github.com/samu1992/Fauna-Urbana/tree/master/src/imagenes/gifFauna.gif)
+![gif](https://github.com/samu1992/Fauna-Urbana/blob/master/src/imagenes/gifFauna.gif)
 
 # Getting Started with Create React App
 
