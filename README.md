@@ -1,3 +1,29 @@
+![logo](https://github.com/samu1992/Fauna-Urbana/blob/master/src/components/NavBar/logo1.png)
+
+## Descripcion del Proyecto
+
+Fauna Urbana es una organización sin fines de lucro encargada de rescatar perros en situaciones de calle y abandono. Nuestro objetivo es encontrar
+ personas dispuestas a adoptar y recibir cualquier tipo de donaciones.
+
+Este sitio web fue construido utilizando React js, un marco de desarrollo de JavaScript para aplicaciones web. Utilizamos una base de datos para almacenar
+
+ los datos de los perros rescatados y una promesa para mostrar esta información en pantalla. También se utilizó el enrutador React para manejar 
+las diferentes rutas de la aplicación.
+
+Para el diseño, se utilizaron librerías como Bootstrap y Font Awesome, que proporcionan una gran variedad de componentes y estilos
+ para mejorar la presentación del sitio web.
+
+Este proyecto sera donado a fauna Urbana, para contrubuir a su mision.
+
+### Desarrollado con:
+
+React Js.
+React-bootstrap.
+React-router-dom.
+font Awesome
+
+![gif](https://github.com/samu1992/Fauna-Urbana/blob/master/gifFauna.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
