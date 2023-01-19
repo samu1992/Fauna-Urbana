@@ -49,7 +49,7 @@ const Footer = () => {
       <div className='container_footer--networks'>
         <h3 id='title'>SEGUINOS EN:</h3>
         <div className='container_footer__networks--links'>
-          <a id='networks' href="."><i className=" fab fa-instagram"></i></a>
+          <a id='networks' target='_blank' rel="noreferrer"  href="https://www.instagram.com/faunaurbanaba/"><i className=" fab fa-instagram"></i></a>
           <a id='networks' href="."><i className="fab fa-facebook"></i></a>
           <a id='networks' href="."><i className="fab fa-twitter"></i></a>
         </div>

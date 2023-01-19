@@ -1,4 +1,4 @@
-![logo](https://github.com/samu1992/Fauna-Urbana/blob/master/src/components/NavBar/logo1.png)
+![logo](https://github.com/samu1992/Fauna-Urbana/blob/master/src/components/NavBar/ADOPCION.png)
 
 ## Descripcion del Proyecto
 
@@ -22,7 +22,7 @@ React-bootstrap.
 React-router-dom.
 font Awesome
 
-![gif](https://github.com/samu1992/Fauna-Urbana/blob/master/gifFauna.gif)
+![gif](https://github.com/samu1992/Fauna-Urbana/tree/master/src/imagenes/gifFauna.gif)
 
 # Getting Started with Create React App
 

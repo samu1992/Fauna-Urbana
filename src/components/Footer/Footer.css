@@ -47,12 +47,12 @@ li:hover{
     gap: 28px;
 }
 
-i:hover{
-    color: #4f1614;
-}
 #networks{
     font-size: 35px;
     color: #340e0d;
+}
+#networks:hover{
+    color: #4f1614;
 }
 #title{
     font-weight: bolder;
