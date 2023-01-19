@@ -1,13 +1,13 @@
-import pino from './images/pino.jpg';
-import sombra from './images/sombra.jpg';
-import pablo from './images/pablo.jpg';
-import areta from './images/areta.jpg';
-import menta from './images/menta.jpg';
-import vito from './images/vito.jpg';
-import loky from './images/loky.jpg';
-import india from './images/india.jpg';
-import megan from './images/megan.jpg';
-import latte from './images/latte.jpg';
+import pino from '../../imagenes/pino.jpg';
+import sombra from '../../imagenes/sombra.jpg';
+import pablo from '../../imagenes/pablo.jpg';
+import areta from '../../imagenes/areta.jpg';
+import menta from '../../imagenes/menta.jpg';
+import vito from '../../imagenes/vito.jpg';
+import loky from '../../imagenes/loky.jpg';
+import india from '../../imagenes/india.jpg';
+import megan from '../../imagenes/megan.jpg';
+import latte from '../../imagenes/latte.jpg';
     export const data =[
         {
             "nombre": "Pino",

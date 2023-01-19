@@ -1,5 +1,5 @@
 import './Donaciones.css'
-import Pagos from './pagos.png'
+import Pagos from '../../imagenes/pagos.png'
 
 const Donaciones = () => {
     return (

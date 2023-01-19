@@ -36,22 +36,22 @@
 }
 
 .tarjeta--0{
-    background-image: url('./images/tarjeta.jpg');
+    background-image: url('../../imagenes/tarjeta.jpg');
     background-position: center;
     background-size: cover;
 }
 .tarjeta--1{
-    background-image: url('./images/tarjeta1.jpg');
+    background-image: url('../../imagenes/tarjeta1.jpg');
     background-position: center;
     background-size: cover;
 }
 .tarjeta--2{
-    background-image: url('./images/tarjeta2.jpg');
+    background-image: url('../../imagenes/tarjeta2.jpg');
     background-position: center;
     background-size: cover;
 }
 .tarjeta--3{
-    background-image: url('./images/tarjeta3.jpg');
+    background-image: url('../../imagenes/tarjeta3.jpg');
     background-position: center;
     background-size: cover;
 }

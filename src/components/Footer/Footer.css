@@ -8,7 +8,7 @@
     padding: 15px;
     padding-top: 70px;
     bottom: 0px;
-    background-image: linear-gradient(rgba(241, 203, 192, 0.5), rgba(241, 203, 192, 0.8)), url(pino.jpg);
+    background-image: linear-gradient(rgba(241, 203, 192, 0.5), rgba(241, 203, 192, 0.8)), url('../../imagenes/testipino.jpg');
     background-size: cover;
     background-position: center;
     gap: 100px;
