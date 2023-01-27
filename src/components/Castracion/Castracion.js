@@ -11,7 +11,7 @@ const Castracion = () => {
             <aside className='container_castracion--contenido'>
                 <p><span>Castrar es la única opción real para evitar que sigan naciendo animales destinados a sufrir.
                     Nuevos nacimientos significan nuevos abandonos.</span></p>
-                <img alt='cachorros' src={Cachorros} />
+                <img alt='...error en cargar la foto de cachorros recien nacidos abandonados' src={Cachorros} />
                 <p>Existe un gran número de animales de compañía que son abandonados por sus dueños cada año.
                     Miles de ellos deambulan por las calles padeciendo hambre, enfermedades, accidentes y siendo víctimas
                     de maltrato. Entonces, <span>¿para qué traer más perros y gatos al mundo cuando hay miles sufriendo en las calles?</span></p><br />
@@ -31,7 +31,7 @@ const Castracion = () => {
                 <ListaDesordenada title='Ventajas para Usted' listItems={["Evitara crías no deseadas, mordeduras, peleas, fugas, maullidos nocturnos, rociado de orina, problemas con los vecinos.",
                 "Sus animales serán más sanos, vivirán más años y serán más guardianes."]}/>
                 <ListaDesordenada title='Ventajas para la sociedad' listItems={["Menos cantidad de animales en la vía pública.","Menos animales abandonados por lo tanto menos maltrato y sufrimiento."]}/>
-                <img alt='img' src={Pagos}/>
+                <img alt='...error en cargar imagen con datos bancarior' src={Pagos}/>
                 <button>APADRINA UNA CASTRACIÓN</button>
         </main>
     )

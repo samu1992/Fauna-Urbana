@@ -26,7 +26,7 @@ const Donaciones = () => {
                         <p>(Doná el importe que quieras directamente en nuestra cuenta.)</p>
                         <p>Banco XXXXXX</p>
                         <p>Asociación Civil FAUNA<br /></p>
-                        <img alt='img' src={Pagos} />
+                        <img alt='... error en cargar imagen con informacion bancaria' src={Pagos} />
                         <button>DONA CON DEBITO AUTOMATICO</button>
                     </div>
                 </section>

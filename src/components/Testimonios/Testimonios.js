@@ -42,7 +42,7 @@ function Testimonios() {
                     unmountOnExit
                 >
                     <section className='container_testimonios--contenido'>
-                        <img src={items[index].image} alt="imagen del div" />
+                        <img src={items[index].image} alt="...error en cargar foto de testimonio de adoptante" />
                         <p>{items[index].text}</p>
                     </section>
                 </CSSTransition>

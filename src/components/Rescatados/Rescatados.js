@@ -27,7 +27,7 @@ const Rescatados = () => {
                 return (
                     <div>
                         <Card className="container_rescatados--card" key={item.id}>
-                            <Card.Img className="img" variant="top" src={item.foto} />
+                            <Card.Img alt="error en cargar foto de perro en adopcion" className="img" variant="top" src={item.foto} />
                             <Card.Body>
                                 <Card.Title id="title"><strong>{item.nombre}</strong></Card.Title>
                                 <Card.Title id="title"><strong>Edad:</strong> {item.edad}</Card.Title>
