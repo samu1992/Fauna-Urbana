@@ -118,7 +118,7 @@ li:hover + .menu_desplegable{
 .bars{
     display: none;
 }
-.menu_responsive{
+.navbar--responsive{
     display: none;
 }
 
@@ -140,39 +140,8 @@ li:hover + .menu_desplegable{
     .bars{
         display: block;
         font-size: 40px;
-        color: #000000;
     }
-    .menu_responsive:hover{
-        display: flex;
-        position: absolute;
-        right: 1px;
-        top: 110px;
-        width: 60%;
-        align-items: flex-end;
-        justify-content: flex-end;
-        flex-direction: column;
-        z-index: 30;
-        gap: 25px;
-        padding: 25px;
-        padding-bottom: 300px;
-        background-color: rgba(241, 203, 192, 0.7);
-    }
-    .bars:hover + .menu_responsive{
-        display: flex;
-        position: absolute;
-        right: 1px;
-        top: 110px;
-        width: 60%;
-        align-items: flex-end;
-        justify-content: flex-end;
-        flex-direction: column;
-        z-index: 30;
-        gap: 25px;
-        padding: 25px;
-        padding-bottom: 300px;
-        background-color: rgba(241, 203, 192, 0.7);
-    }
-    .menu_responsive a{
+    .navbar--responsive a{
         font-family: 'Montserrat', sans-serif;
         font-size: 22px;
         font-weight: 900;
@@ -182,7 +151,23 @@ li:hover + .menu_desplegable{
     .container_nav a{
         text-decoration: none;
     }
-
+    .navbar--open{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        align-items: top;
+        top: 112px;
+        right: 0px;
+        padding-top: 20px;
+        min-width: 100%;
+        height: 100vh;
+        background-color: rgb(241, 203, 192); 
+        z-index: 100;
+        gap: 30px;
+        text-align: center;
+    }
+    
 }
 @media only screen and (max-width: 480px){
     .menu_responsive a{

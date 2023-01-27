@@ -13,7 +13,7 @@ import Contacto from './components/Contacto/Contacto';
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <BrowserRouter>
         <NavBar />
         <Routes>
@@ -27,7 +27,7 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
-    </div>
+    </main>
   );
 }
 

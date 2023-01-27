@@ -6,9 +6,9 @@ import foto2 from '../../imagenes/foto2.jpg';
 
 const ControlledCarousel = () => {
     return (
-        <div className='container_carousel'>
-            <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div className="carousel-inner">
+        <main className='container_carousel'>
+            <aside id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
+                <section className="carousel-inner">
                     <div className="carousel-item active">
                         <img src={foto3} className="d-block w-100" alt="..." />
                         <div id='carouselh1' className="carousel-caption  d-md-block">
@@ -26,7 +26,7 @@ const ControlledCarousel = () => {
                         <h1><strong>ADOPTA</strong><br/>Y SALVA UNA VIDA</h1>
                         </div>
                     </div>
-                </div>
+                </section>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
@@ -35,8 +35,8 @@ const ControlledCarousel = () => {
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
-            </div>
-        </div>
+            </aside>
+        </main>
     );
 }
 

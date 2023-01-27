@@ -2,12 +2,12 @@ import './Contacto.css'
 
 const Contacto = () => {
     return (
-        <div className="container_contacto">
-            <div className="container_contacto--title">
+        <main className="container_contacto">
+            <section className="container_contacto--title">
                 <h1><span>Contacto</span></h1>
                 <p>Para contactarse con nosotros complete el siguiente formulario y seleccione el área a donde quiere dirigirse. Muchas gracias.</p>
-            </div>
-            <div className='container_contacto--formulario'>
+            </section>
+            <aside className='container_contacto--formulario'>
                 <form>
                     <p>Nombre y Apellido</p>
                     <input type="text" name="nombre" size='40' />
@@ -28,8 +28,8 @@ const Contacto = () => {
                     <textarea></textarea><br/>
                     <button>ENVIAR</button>
                 </form>
-            </div>
-        </div>
+            </aside>
+        </main>
     )
 }
 

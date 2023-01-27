@@ -1,13 +1,15 @@
 import './NavBar.css';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 
 const NavBar = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <div className="container_nav">
+        <nav className="container_nav">
             <Link to="/"><div className="container_nav--logo"></div></Link>
-            <div className="container_nav--li">
+            <aside className="container_nav--li">
                 <div className='container_nav--input'>
                     <form><input id='input' type='search' placeholder='Busqueda' /></form>
                     <div className='container_nav_input--icon'><Link to='/'><i className="fa-solid fa-magnifying-glass"></i></Link></div>
@@ -19,16 +21,16 @@ const NavBar = () => {
                 <li><Link to='./Castracion' className='container_nav--link castracion'>Salva Vidas</Link></li>
                 <div className='menu_desplegable' id='castracion'><Link to='/Castracion' className='requisitos'>Castracion</Link></div>
                 <li><Link to='./Contacto' className='container_nav--link'>Contacto</Link></li>
-            </div>
-            <Link to='#' className='fa fa-bars bars'/>
-            <div className='menu_responsive' id='responsive'>
+            </aside>
+            <Link to='#' className='fa fa-bars bars' onClick={() => setMenuOpen(!menuOpen)}/>
+            <nav className={`navbar--responsive ${menuOpen ? 'navbar--open' : 'navbar--closed'}`}>
                 <Link to='/QuienesSomos'>Quienes Somos</Link>
                 <Link to='/Rescatados'>Adopcion</Link>
                 <Link to='/Requisitos'>Requisitos Adopcion</Link>
                 <Link to='/Donaciones'>Donaciones</Link>
                 <Link to='/Contacto'>Contacto</Link>
-            </div>
-        </div>
+            </nav>
+        </nav>
     )
 }
 

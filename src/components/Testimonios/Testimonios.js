@@ -32,22 +32,22 @@ function Testimonios() {
     }, [index, items.length]);
 
     return (
-        <div className='container'>
+        <main className='container'>
             <h2><span>Adoptantes Felices </span> <a href="."><i class="fa-solid fa-heart"></i></a></h2>
-            <div className='container_testimonios'>
+            <aside className='container_testimonios'>
                 <CSSTransition
                     in={true}
                     timeout={1500}
                     classNames="fade"
                     unmountOnExit
                 >
-                    <div className='container_testimonios--contenido'>
+                    <section className='container_testimonios--contenido'>
                         <img src={items[index].image} alt="imagen del div" />
                         <p>{items[index].text}</p>
-                    </div>
+                    </section>
                 </CSSTransition>
-            </div>
-        </div>
+            </aside>
+        </main>
     );
 }
 

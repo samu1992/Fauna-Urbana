@@ -43,13 +43,4 @@ const Rescatados = () => {
 
 };
 
-
-
-
-
-
-
-
-
-
 export default Rescatados

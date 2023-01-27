@@ -4,9 +4,9 @@ import ListaDesordenada from "../ListaDesordenada/ListaDesordenada"
 
 const Requisitos = () => {
     return (
-        <div className="container_requisitos">
-            <di className='container--titulo'><h1>REQUISITOS <span>ADOPCION</span></h1><hr /></di>
-            <div className='container_requisitos--contenido'>
+        <main className="container_requisitos">
+            <div className='container--titulo'><h1>REQUISITOS <span>ADOPCION</span></h1><hr /></div>
+            <aside className='container_requisitos--contenido'>
                 <div className='imagen'></div>
                 <p><span>Adoptar es un acto de responsabilidad y compromiso por lo que es importante que estes capacitado para hacerlo.
                     Un perro puede vivir entre 14 y 18 años y durante todo ese tiempo dependerá de vos.</span></p>
@@ -14,7 +14,7 @@ const Requisitos = () => {
                     compañía, actividad física y cuidado. También los costos asociados a su alimentación, atención veterinaria y estadía
                     durante tus vacaciones.<br /><br />Para asegurarte una convivencia feliz tu elección debe estar orientada
                     al estilo de vida que llevas y el tiempo real que le podes dedicar.</p>
-                <div className='container_requisitos--tips'>
+                <section className='container_requisitos--tips'>
                     <p><span>Aquí te damos algunos tips pero recordá que lo más importante es adoptar con conciencia y con el corazón.</span></p><br />
                     <p><span>Un cachorro: </span>(45 días-12 meses) es precioso pero, requiere de mucho tiempo y esfuerzo.
                         Come 4 veces al día, puede llorar por las noches y en las ausencias de los dueños. Mastica objetos, hace pis
@@ -34,8 +34,8 @@ const Requisitos = () => {
                         requieren tanto trabajo. Son muy calmos y sedentarios. Aunque el tiempo de compañía es seguramente menor,
                         también se merecen un hogar. Podemos darle durante los años que le quedan una vida digna y agradable.
                         Estarán súper agradecidos, esperaron su hogar mucho tiempo.</p>
-                </div>
-                <div className='container_requisitos--finales'>
+                </section>
+                <section className='container_requisitos--finales'>
                     <p><span>Si te sentís capacitado para adoptar un cachorro, un joven o un adulto, te invitamos a que te acerques
                         a nuestro refugio y conozcas a nuestros perritos.</span></p><br />
                     <ListaDesordenada title='Nuestros Requisitos'
@@ -45,9 +45,9 @@ const Requisitos = () => {
                             "Nos reservamos el derecho de dar o no un animal en adopción de acuerdo a si se cumplen o no los requerimientos que nuestra ONG considera.",
                             "Las adopciones se limitan geográficamente a Capital Federal y Gran Buenos Aires, Argentina (sujeto a consideración)",
                             "Los datos suministrados por el solicitante son confidenciales y de acceso restringido, para el uso exclusivo de los procesos de adopción de la Asociación Civil Proyecto 4 Patasy no serán transferidos a terceros bajo ninguna circunstancia."]} />
-                </div>
-            </div>
-        </div>
+                </section>
+            </aside>
+        </main>
     )
 }
 

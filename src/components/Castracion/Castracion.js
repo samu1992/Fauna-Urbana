@@ -5,10 +5,10 @@ import Pagos from '../../imagenes/pagos.png'
 
 const Castracion = () => {
     return (
-        <div className='container_castracion'>
+        <main className='container_castracion'>
             <div className='container_castracion--title'><h1 >CASTRAR</h1></div>
             <hr />
-            <div className='container_castracion--contenido'>
+            <aside className='container_castracion--contenido'>
                 <p><span>Castrar es la única opción real para evitar que sigan naciendo animales destinados a sufrir.
                     Nuevos nacimientos significan nuevos abandonos.</span></p>
                 <img alt='cachorros' src={Cachorros} />
@@ -20,7 +20,7 @@ const Castracion = () => {
                     SALUD A TU MASCOTA</span></p><br />
                 <p>Es responsabilidad del Estado realizar campañas de castración gratuitas, masivas, sistemáticas y extensivas en el tiempo pero
                     también es necesaria la participación responsable de cada ciudadano.</p>
-            </div>
+            </aside>
             <ListaDesordenada title='Ventajas de la esterilización en hembras:'
                 listItems={["Eliminación del celo, con lo que dejan de manchar en casa y de atraer a los machos, desapareciendo además la ansiedad del animal y los maullidos y quejidos de las gatas que provoca este periodo.",
                     "Elimina los embarazos psicológicos que se presentan en algunas hembras después del celo.",
@@ -33,7 +33,7 @@ const Castracion = () => {
                 <ListaDesordenada title='Ventajas para la sociedad' listItems={["Menos cantidad de animales en la vía pública.","Menos animales abandonados por lo tanto menos maltrato y sufrimiento."]}/>
                 <img alt='img' src={Pagos}/>
                 <button>APADRINA UNA CASTRACIÓN</button>
-        </div>
+        </main>
     )
 }
 

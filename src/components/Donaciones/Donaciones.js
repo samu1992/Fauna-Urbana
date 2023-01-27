@@ -3,13 +3,13 @@ import Pagos from '../../imagenes/pagos.png'
 
 const Donaciones = () => {
     return (
-        <div className='container_donaciones'>
-            <div className='container_donaciones--contenido'>
+        <main className='container_donaciones'>
+            <aside className='container_donaciones--contenido'>
                 <h3>Tu aporte nos permite continuar llevando a cabo actividades sanitarias, educativas y de asistencialismo.</h3>
                 <p id='p'>Los aportes económicos son importantes para pagar tratamientos, estudios médicos y honorarios veterinarios,
                     comprar insumos y alimento, financiar campañas de castración en zonas carenciadas, imprimir material de
                     difusión entre otros.</p>
-                <div className='container_donaciones_contenido--cuentas'>
+                <section className='container_donaciones_contenido--cuentas'>
                     <div className='cuenta_bancaria'>
                         <h4>Depósito o transferencia Bancaria</h4>
                         <p>(Doná el importe que quieras directamente en nuestra cuenta.)</p>
@@ -29,9 +29,9 @@ const Donaciones = () => {
                         <img alt='img' src={Pagos} />
                         <button>DONA CON DEBITO AUTOMATICO</button>
                     </div>
-                </div>
-            </div>
-        </div>
+                </section>
+            </aside>
+        </main>
     )
 }
 

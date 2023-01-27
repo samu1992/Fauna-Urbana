@@ -4,8 +4,8 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className="container_footer">
-      <div>
+    <main className="container_footer">
+      <section>
         <h3 id='title'>LEGAL</h3>
         <ul>
           <li>Nuestros Datos</li>
@@ -15,8 +15,8 @@ const Footer = () => {
           <li>Seleccionar Pais</li>
           <li id='container_footer__6'>Reclamos</li>
         </ul>
-      </div>
-      <div>
+      </section>
+      <section>
         <h3 id='title'>FU</h3>
         <p>FAUNA URBANA (FU)<br /> es una asociación civil<br />
           sin fines de lucro<br />
@@ -24,8 +24,8 @@ const Footer = () => {
           proteger y promover<br />
           los derechos de los<br />
           animales.</p>
-      </div>
-      <div className='container_footer--form'>
+      </section>
+      <section className='container_footer--form'>
         <h3 id='title'>MAILING</h3>
         <Form>
           <Form.Group className="mb-3" controlId="formGroupEmail">
@@ -36,8 +36,8 @@ const Footer = () => {
             SUSCRIBIRME!
           </Button>
         </Form>
-      </div>
-      <div>
+      </section>
+      <section>
         <h3 id='title'>MENU</h3>
         <ul>
           <li>Inicio</li>
@@ -45,16 +45,16 @@ const Footer = () => {
           <li>Donaciones</li>
           <li>Quienes Somos</li>
         </ul>
-      </div>
-      <div className='container_footer--networks'>
+      </section>
+      <section className='container_footer--networks'>
         <h3 id='title'>SEGUINOS EN:</h3>
         <div className='container_footer__networks--links'>
           <a id='networks' target='_blank' rel="noreferrer"  href="https://www.instagram.com/faunaurbanaba/"><i className=" fab fa-instagram"></i></a>
           <a id='networks' href="."><i className="fab fa-facebook"></i></a>
           <a id='networks' href="."><i className="fab fa-twitter"></i></a>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   )
 }
 export default Footer

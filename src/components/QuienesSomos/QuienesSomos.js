@@ -2,8 +2,8 @@ import './QuienesSomos.css'
 
 const QuienesSomos = () => {
     return (
-        <div className="container_nosotros">
-            <div className='container_nosotros--contenido'>
+        <main className="container_nosotros">
+            <aside className='container_nosotros--contenido'>
                 <h1>NOSOTROS</h1>
                 <hr />
                 <h2 id='subtitulos'>Nuestro equipo</h2>
@@ -44,8 +44,8 @@ const QuienesSomos = () => {
                     y apoyar proyectos de ley que beneficien a los animales.</p>
                     <p id='p'>Las actividades asistenciales: rescatar animales en situación de riesgo con el fin de recuperarlos
                         y darles la posibilidad de formar parte de una familia que le brinde lo que necesita.</p>
-            </div>
-        </div>
+            </aside>
+        </main>
     )
 }
 
