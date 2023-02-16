@@ -1,11 +1,13 @@
 .container_nav{
+    position: fixed;
     font-size: 18px;
     font-weight: bold;
     display: flex;
     z-index: 10;
+    top: 0;
     justify-content: space-between;
     align-items: center;
-    min-width: 100% auto;
+    min-width: 100%;
     height: 130px;
     padding: 20px;
     background-color: #f1cbc0;
@@ -155,22 +157,25 @@ li:hover + .menu_desplegable{
         position: absolute;
         display: flex;
         flex-direction: column;
-        justify-content: top;
-        align-items: top;
-        top: 112px;
-        right: 0px;
-        padding-top: 20px;
-        min-width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        min-width: 70%;
         height: 100vh;
-        background-color: rgb(241, 203, 192); 
+        background-color: #f7f1f1;
         z-index: 100;
         gap: 30px;
-        text-align: center;
+    }
+    .navbar--open H2{
+        font-weight: bold;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
     }
     
 }
 @media only screen and (max-width: 480px){
-    .menu_responsive a{
+    .navbar--open a{
         font-size: 15px;
     }
 }

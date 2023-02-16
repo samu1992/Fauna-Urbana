@@ -1,20 +1,19 @@
 .container_contacto{
     display: flex;
     flex-direction: column;
-    align-items: initial;
-    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
-    min-width: 100%;
+    max-width: 50%;
     padding: 150px;
 }
 
-.container_contacto--formulario{
+.container_contacto--formulario form{
     display: flex;
     flex-direction: column;
     align-items: initial;
     justify-content: initial;
     flex-wrap: wrap;
-    min-width: 80%;
 }
 .container_contacto--title{
     display: flex;
@@ -49,6 +48,8 @@
 @media only screen and (max-width: 770px){
     .container_contacto{
         padding: 50px;
+        margin-top: 150px;
+        max-width: 100%;
     }
 }
 @media only screen and (max-width: 680px){

@@ -14,10 +14,10 @@ const Castracion = () => {
                 <img alt='...error en cargar la foto de cachorros recien nacidos abandonados' src={Cachorros} />
                 <p>Existe un gran número de animales de compañía que son abandonados por sus dueños cada año.
                     Miles de ellos deambulan por las calles padeciendo hambre, enfermedades, accidentes y siendo víctimas
-                    de maltrato. Entonces, <span>¿para qué traer más perros y gatos al mundo cuando hay miles sufriendo en las calles?</span></p><br />
-                <p>La única solución ética y eficaz es la ESTERILIZACION de perros y gatos para controlar su reproducción.</p><br /><br />
+                    de maltrato. Entonces, <span>¿para qué traer más perros y gatos al mundo cuando hay miles sufriendo en las calles?</span></p>
+                <p>La única solución ética y eficaz es la ESTERILIZACION de perros y gatos para controlar su reproducción.</p><br />
                 <p><span>LA CASTRACIÓN ES LA ÚNICA Y MEJOR MANERA DE MANTENER CONTROLADA LA POBLACIÓN ANIMAL, ADEMÁS DE AYUDAR A EVITAR PROBLEMAS DE
-                    SALUD A TU MASCOTA</span></p><br />
+                    SALUD A TU MASCOTA</span></p>
                 <p>Es responsabilidad del Estado realizar campañas de castración gratuitas, masivas, sistemáticas y extensivas en el tiempo pero
                     también es necesaria la participación responsable de cada ciudadano.</p>
             </aside>

@@ -9,15 +9,15 @@ const Contacto = () => {
             </section>
             <aside className='container_contacto--formulario'>
                 <form>
-                    <p>Nombre y Apellido</p>
+                    <label>Nombre y Apellido</label>
                     <input type="text" name="nombre" size='40' />
-                    <p>Ciudad</p>
+                    <label>Ciudad</label>
                     <input type='text' name='ciudad' size='40' />
-                    <p>E-mail</p>
+                    <label>E-mail</label>
                     <input type='email' size='40' />
-                    <p>Telefono</p>
+                    <label>Telefono</label>
                     <input type='text' size='40' />
-                    <p>Area de Contacto</p>
+                    <label>Area de Contacto</label>
                     <select>
                         <option value="1">General</option>
                         <option value="2">Donaciones</option>

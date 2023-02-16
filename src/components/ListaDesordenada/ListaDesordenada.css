@@ -27,3 +27,10 @@
     color: #2a814c;
     margin-right: 10px;
 }
+@media only screen and (max-width: 620px){
+    .container_lista{
+        width: 100%;
+        margin: 0px;
+        padding: 0px 2px;
+    }
+}

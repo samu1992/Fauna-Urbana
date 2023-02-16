@@ -24,6 +24,7 @@ const NavBar = () => {
             </aside>
             <Link to='#' className='fa fa-bars bars' onClick={() => setMenuOpen(!menuOpen)}/>
             <nav className={`navbar--responsive ${menuOpen ? 'navbar--open' : 'navbar--closed'}`}>
+            <Link to="/"><div><h2>FAUNA URBANA</h2></div></Link>
                 <Link to='/QuienesSomos'>Quienes Somos</Link>
                 <Link to='/Rescatados'>Adopcion</Link>
                 <Link to='/Requisitos'>Requisitos Adopcion</Link>

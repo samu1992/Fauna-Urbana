@@ -1,6 +1,5 @@
 import { useState , useEffect } from "react";
 import Card from 'react-bootstrap/Card';
-import { Link } from "react-router-dom";
 import {data} from "./data.js";
 import './Rescatados.css';
 
@@ -19,10 +18,9 @@ const Rescatados = () => {
         console.log(jsonData)
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
-
+    //Enlace no habilitado para el boton adoptar
     return (
         <div className="container_rescatados">
-            <div className="boton"><button><Link to='/Requisitos'>REQUISITOS</Link></button></div>
             {jsonData.map((item) => {
                 return (
                     <div>

@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     padding: 50px;
     width: 100%;
-    
+    margin-top: 120px;
 }
 .container_donaciones--contenido{
     display: flex;
@@ -61,7 +61,7 @@
 .container_donaciones h3, h4{
     font-size: 30px;
     font-weight: bold;
-    color: #f1cbc0;
+    color: #2d2422;
 }
 
 

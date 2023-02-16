@@ -77,7 +77,7 @@ import latte from '../../imagenes/latte.jpg';
             "nombre": "Megan",
             "id": 9,
             "edad": "7 años",
-            "rescatado": "San Martin",
+            "rescatado": "Banfield",
             "foto": megan,
             "condicion": "Sana"
         },
@@ -85,7 +85,7 @@ import latte from '../../imagenes/latte.jpg';
             "nombre": "Latte",
             "id": 10,
             "edad": "6 años",
-            "rescatado": "Villa Luro",
+            "rescatado": "Lanus",
             "foto": latte,
             "condicion": "Delicada"
         }
